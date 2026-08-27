@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosso Sabor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="icon" type="image/x-icon" href="/src/icone_nossosabor.png">
+    <script src="/js/navbar.js" defer></script>
+    <script src="/js/container-base.js" defer></script>
+    <script src="/js/card-restaurante.js" defer></script>
+</head>
+
+<body style="background-color: #efdac1;">
+    <header>
+        <navbar-component></navbar-component>
+    </header>
+    <main class="container" style="padding-top: 90px; padding-bottom: 40px;">
+        <div class="row justify-content-center">
+            <div class="p-4 p-md-5 shadow-lg text-center overflow-hidden rounded-2"
+                style="background-color: #6f6c5c; color: #efdac1;">
+                <h3 class="mb-4 border-bottom border-light pb-3">Restaurantes</h3>
+
+                <div class="row g-4 justify-content-center pt-4">
+                    <card-restaurante img="/src/cobos.png" nome="Cobbos Café"
+                        descricao="Com um ambiente aconchegante, decoração charmosa, uma grande variedade de doces, cafés e bebidas, ela transforma uma simples pausa para um café em uma experiência especial."
+                        nota="4.0">
+                    </card-restaurante>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
