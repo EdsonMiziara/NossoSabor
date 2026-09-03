@@ -68,3 +68,19 @@ body {
     color: #6f6c5c;
     border: none;
 }
+
+.dropdown-menu {
+    background-color: rgba(239, 218, 193, 0.75);
+    color: rgba(111, 108, 92, 1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.dropdown-item {
+    background-color: transparent;
+    color: inherit;
+}
+
+.dropdown-divider {
+    border-top-color: rgba(111, 108, 92, 0.2);
+}
