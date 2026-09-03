@@ -13,7 +13,7 @@ export class CarouselRestaurantes extends HTMLElement {
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="10000">
             <div class="row g-4 justify-content-center pt-4 pb-5">
-              <card-restaurante img="/src/cobos.png" nome="Cobbos Café"
+              <card-restaurante img="/src/cobos.jfif" nome="Cobbos Café"
                 descricao="Com um ambiente aconchegante, decoração charmosa,
                  uma grande variedade de doces, cafés e bebidas,
                   ela transforma uma simples pausa para um café em uma experiência especial."

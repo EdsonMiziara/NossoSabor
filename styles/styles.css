@@ -55,3 +55,16 @@ body {
 #carouselExampleDark {
     margin-bottom: 50px; 
 }
+
+.accordion-about-us .accordion-item,
+.accordion-about-us .accordion-header,
+.accordion-about-us .accordion-button {
+    background-color: #6f6c5c;
+    color: #efdac1;
+}
+
+.list-group-item {
+    background-color: #efdac1;
+    color: #6f6c5c;
+    border: none;
+}
