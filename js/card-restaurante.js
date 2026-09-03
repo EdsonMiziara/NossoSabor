@@ -1,4 +1,4 @@
-class CardRestaurante extends HTMLElement {
+export class CardRestaurante extends HTMLElement {
     connectedCallback() {
         const img = this.getAttribute('img') || '';
         const nome = this.getAttribute('nome') || 'Restaurante';
